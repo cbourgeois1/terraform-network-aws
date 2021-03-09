@@ -26,6 +26,7 @@ module "vpc" {
   tags = var.vpc_tags
 }
 
+/*
 module "ec2_instances" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "2.12.0"
@@ -42,4 +43,6 @@ module "ec2_instances" {
     Terraform   = "true"
     Environment = "dev"
   }
+*/
+    
 }
